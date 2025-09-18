@@ -1,0 +1,225 @@
+#blog {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#blog .splide__slide {
+  padding: 0 25px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+#blog .splide__slide-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog .splide__slide-item,
+#blog .splide__slide-text {
+  position: relative;
+}
+
+#blog .splide__slide-text>p {
+  text-align: left;
+  color: #FFFFFF;
+  line-height: 2;
+  width: 100%;
+  max-width: 393px;
+}
+
+#blog .person-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#blog .quote {
+  position: absolute;
+  top: -45px;
+  left: -50px;
+}
+
+#blog .spiral {
+  margin: 0 auto;
+  width: 380px;
+  height: 380px;
+  position: absolute;
+  top: 86px;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#blog .splide__slide-img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+#blog .personal-info {
+  margin: 0 auto;
+  padding: 15px 10px 15px 25px;
+  width: 100%;
+  max-width: 265px;
+  text-align: left;
+  font-size: 100;
+  background-color: rgba(40, 48, 54, 0.7);
+  background: url('../../assets/images/personal-info-background.png') center / cover no-repeat;
+  border: 1px solid #333A3F;
+  border-radius: 10px;
+  position: absolute;
+  top: 363px;
+  right: 10%;
+  z-index: 1;
+}
+
+#blog .personal-info>h3 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+#blog .personal-info>p {
+  font-size: 16px;
+}
+
+#blog .splide__arrow {
+  background: none;
+  width: 40px;
+  height: 100px;
+}
+
+#blog .splide__arrow>svg {
+  fill: #FF6E30;
+  width: 100px;
+  height: 100px;
+}
+
+#blog .splide__arrow--prev {
+  border-radius: 0 10px 10px 0;
+  left: 10%;
+}
+
+#blog .splide__arrow--next {
+  border-radius: 10px 0 0 10px;
+  right: 10%;
+}
+
+#blog .splide__pagination {
+  gap: 18px;
+}
+
+#blog .splide__pagination__page {
+  height: 6px;
+  width: 44px;
+  background-color: #364047;
+  border-radius: 10px;
+  transform: scale(1);
+}
+
+#blog .splide__pagination__page.is-active {
+  height: 8px;
+  background-color: #FF6E30;
+}
+
+@media screen and (max-width: 1150px) {
+  #blog .splide__arrow--prev {
+    left: 0;
+  }
+
+  #blog .splide__arrow--next {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #blog .splide__arrow {
+    background: rgba(0, 0, 0, 0.8);
+    width: 30px;
+  }
+
+  #blog .splide__arrow>svg {
+    fill: #FF6E30;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #blog .splide__slide {
+    padding: 0 15px;
+  }
+  
+  #blog .splide__slide-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  #blog .splide__slide-item:last-child {
+    position: absolute;
+    width: 100%;
+  }
+
+  #blog .splide__slide-text>p {
+    border-radius: 10px;
+    background-color: rgba(40, 48, 54, 0.5);
+    text-align: center;
+    line-height: normal;
+    margin: 0 auto;
+  }
+
+  #blog .quote {
+    left: 0;
+  }
+
+  #blog .person-img {
+    height: 450px;
+  }
+
+  #blog .personal-info {
+    position: absolute;
+    top: 363px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  #blog .splide__arrow {
+    width: 20px;
+  }
+
+  #blog .splide__arrow>svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #blog .personal-info {
+    text-align: center;
+    padding: 15px 10px 15px;
+    top: 76%;
+  }
+
+  #blog .personal-info>h3 {
+    font-size: 20px;
+  }
+
+  #blog .personal-info>p {
+    font-size: 12px;
+  }
+
+  #blog .splide__slide-text {
+    bottom: 20%;
+  }
+
+  #blog .splide__pagination {
+    gap: 8px;
+  }
+}

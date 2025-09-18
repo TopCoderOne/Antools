@@ -1,0 +1,38 @@
+#carousel-tools-1 {
+    margin-bottom: 100px;
+}
+
+#carousel-tools-1 .splide__track {
+    width: 100%;
+    overflow: visible;
+    justify-content: center;
+}
+
+#carousel-tools-1 .splide__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px 24px;
+}
+
+#carousel-tools-1 .splide__slide {
+    margin-right: 0 !important;
+    max-width: 392px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #carousel-tools-1 .splide__track {
+        overflow: hidden;
+        padding: 20px 0;
+    }
+
+    #carousel-tools-1 .splide__list {
+        flex-wrap: nowrap;
+        gap: 16px;
+    }
+
+    #carousel-tools-1 .splide__slide {
+        max-width: 288px;
+    }
+}

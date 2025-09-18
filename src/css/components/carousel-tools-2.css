@@ -1,0 +1,48 @@
+#carousel-tools-2 {
+    width: 100%;
+    max-width: 600px;
+}
+
+#carousel-tools-2 .splide__track {
+    overflow: visible;
+}
+
+#carousel-tools-2 .splide__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px 24px;
+}
+
+#carousel-tools-2 .splide__slide {
+    width: auto !important;
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 1076px) {
+    #carousel-tools-2 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #carousel-tools-2 {
+        margin-bottom: 100px;
+    }
+
+    #carousel-tools-2 .splide__track {
+        overflow: hidden;
+        padding: 20px 0;
+    }
+
+    #carousel-tools-2 .splide__list {
+        flex-wrap: nowrap;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #carousel-tools-2 {
+        margin-bottom: 50px;
+    }
+}

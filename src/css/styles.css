@@ -1,0 +1,25 @@
+@import "./base/fonts.css";
+@import "./base/reset.css";
+@import "./base/common.css";
+
+@import "./sections/home.css";
+@import "./sections/popular-tools.css";
+@import "./sections/cooperation.css";
+@import "./sections/partners-block.css";
+@import "./sections/newcomer-tools.css";
+
+@import "./components/header.css";
+@import "./components/nav.css";
+@import "./components/burger-menu.css";
+
+@import "./components/overlay.css";
+
+@import "./components/input.css";
+@import "./components/card.css";
+
+@import "./components/slider-blog.css";
+@import "./components/carousel-tools-1.css";
+@import "./components/carousel-tools-2.css";
+@import "./components/carousel-switches.css";
+
+@import "./components/footer.css";
